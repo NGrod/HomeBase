@@ -1,3 +1,10 @@
+The listing below is identical to the gtk3 Listbox example by steeleyuk except that I have added a signal handler ShowRow()
+ which attempts to print the number of each selected row. It produces a run-time error message
+ 
+Gtk-CRITICAL **;gtk_list_box_row_get_index: assertion 'GTK_IS_LIST_BOX_ROW (row)' failed
+
+Can you help explain my error, please.
+
 #include <gtk/gtk.h> 
  
  
